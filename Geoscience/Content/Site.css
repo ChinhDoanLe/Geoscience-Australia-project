@@ -19,14 +19,69 @@
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
-textarea {
-    max-width: 280px;
-}
-p{
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- font-size: 12px;
 
+p{
+ font-family: Arial;
+ font-size: 14px;
 }
 h1{
 text-align:center;
 }
+textarea, input {
+    width: 210px;
+    height: 40px;
+    border: 1px solid #b0b8c4;
+    padding-left: 5px;
+}
+.search-container button {
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: -5px;
+    background: #fff;
+    border: 1px solid #b0b8c4;
+    width: 50px;
+    height: 40px;
+}
+.search-container button:hover {
+    background: #e7e7e7;
+}
+.dropdown button {
+    font-size: 14px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #b0b8c4;
+    width: 50px;
+    height: 40px;
+}
+.dropdown button:hover {
+    background: #e7e7e7;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #333333;
+    white-space: nowrap;
+    width: 258px;
+}
+.search-button {
+    background-color: #fff;
+    border: 1px solid #b0b8c4;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+    
+.search-button:hover {
+    background-color: #e7e7e7;
+}
+
+
+
